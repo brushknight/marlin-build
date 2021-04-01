@@ -67,7 +67,7 @@ else
 fi
 
 if [[ ${success} -eq 0 ]]; then
-  OUTPUT_DIR=/home/platformio/build/$BOARD
+  OUTPUT_DIR=/home/platformio/CustomConfiguration/$BOARD
   mkdir -p $OUTPUT_DIR
 
   printf "\nCopying compiled firmware to output folder..\n"
